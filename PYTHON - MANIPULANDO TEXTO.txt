@@ -1,0 +1,90 @@
+<* DICAS PYTHON *>
+
+len(frase) 
+
+# vai verificar quantos caracteres tem a frase
+
+=========================================================================
+
+frase.count('o', 0, 13)
+
+# vai contar quantos "o" tem na frase do caractere 0 até o 13
+
+=========================================================================
+
+frase.find('Aprendendo Python')
+
+# vai tentar encontrar a palavra "aprendendo python"
+
+=========================================================================
+
+frase.replace('Aprendendo Python', 'Desenvolvendo Python')
+
+# vai trocar a palavra "Aprendendo Python" por "Desenvolvendo Python"
+
+ex: frase = 'Estou aprendendo Python'
+
+> frase = frase.replace('Python', 'C#')
+
+print(frase)
+
+=========================================================================
+
+frase.upper()
+
+# vai colocar a frase inteira em maiuscula
+
+=========================================================================
+
+frase.lower()
+
+# vai colocar a frase toda em minisculo
+
+=========================================================================
+
+frase.capitalize()
+
+# coloca todos os caracteres pra minisculo e deixa a primeira letra em maiusculo
+
+=========================================================================
+
+frase.title()
+
+# inicio de palavra fica com a letra maiuscula
+
+=========================================================================
+
+frase.strip()
+
+# remove o espaço no começo e no final da frase
+
+=========================================================================
+
+frase.rstrip()
+
+# remove o espaço no final da frase
+
+=========================================================================
+
+frase.lstrip()
+
+# remove o espaço no começo da frase
+
+=========================================================================
+
+frase.split()
+
+# Cada palavra é colocada dentro de uma outra lista e reseta a numeração (0,1,2,3...)
+
+=========================================================================
+
+'-'.join(frase)
+
+
+# Junta as strings colocando um hífen pra separar
+
+=========================================================================
+
+print('Python' in frase)
+
+# Ele vai retornar se a palavra Python está na frase e vai responder com TRUE or FALSE
